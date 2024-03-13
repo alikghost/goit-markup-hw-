@@ -92,6 +92,7 @@ img {
   gap: 40px;
   margin-top: 24px;
   margin-bottom: 24px;
+  padding: 24px 0;
 }
 .address-list {
 }
@@ -141,6 +142,7 @@ img {
   display: block;
   min-width: 169px ;
   border-radius: 4px;
+  height: 56px;
   
 }
 .button-hero:hover {
@@ -225,13 +227,12 @@ img {
   width:calc((100% - 72px) / 4); 
   border-radius: 0px 0px 4px 4px; 
 }
-.div-third{
-  padding: 32px 0;
-}
 .hero-second-img {
   
 }
-
+.info{
+  padding: 32px 16px;
+}
 .hero-four-section {
   padding-top: 120px;
   padding-bottom: 120px;
