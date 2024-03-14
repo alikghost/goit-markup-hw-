@@ -241,10 +241,11 @@ img {
 .hero-portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 48px;
-  row-gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .hero-portfolio-item {
+  width: calc((100% - 48px) / 3); 
 }
 .hero-portfolio-name {
   font-weight: 500;
@@ -262,6 +263,10 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.cards {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;}
 /*-------------------FOOTER------------------- */
 
 .footer {
